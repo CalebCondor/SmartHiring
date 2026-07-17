@@ -48,7 +48,7 @@ export function ContactSection() {
 
   return (
     <section id="contacto" className="py-24 md:py-32 bg-white">
-      <div className="max-w-5xl mx-auto px-6 sm:px-8">
+      <div className="max-w-6xl mx-auto px-6 sm:px-8">
         {/* Header */}
         <motion.div {...fadeUp(0)} className="max-w-2xl mb-16 md:mb-20">
           <p className="text-xs font-semibold tracking-[0.2em] uppercase text-yellow-600 mb-5">
@@ -87,10 +87,10 @@ export function ContactSection() {
                 Ubicación
               </p>
               <p className="text-base md:text-lg text-gray-900 font-medium">
-                San Juan, Puerto Rico
+                Lima, Peru
               </p>
               <p className="text-sm text-gray-500 mt-1">
-                Operación remota · LATAM y el mundo
+                Operación remota con equipos en LATAM y EE. UU.
               </p>
             </div>
 
