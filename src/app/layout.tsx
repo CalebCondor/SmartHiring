@@ -4,7 +4,7 @@ import "./globals.css";
 import { SmoothScroll } from "@/components/SmoothScroll";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { cn } from "@/lib/utils";
+import { cn } from "../../utils";
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
