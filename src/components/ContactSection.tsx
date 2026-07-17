@@ -92,10 +92,19 @@ export function ContactSection() {
               <p className="text-sm text-gray-500 mt-1">
                 Operación remota con equipos en LATAM y EE. UU.
               </p>
-              <ul className="mt-4 flex flex-col gap-2 text-xs text-gray-500 leading-relaxed">
-                <li>1452 Av. Manuel Fernández Juncos, San Juan, PR 00909</li>
-                <li>801 Brickell Key Blvd Apt 3204, Miami, FL 33131</li>
-                <li>C. 1 Oeste 051, San Isidro 15036</li>
+              <ul className="mt-5 flex flex-col gap-3">
+                <li className="flex items-start gap-2.5 text-sm text-gray-600 leading-relaxed">
+                  <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-yellow-500 shrink-0" />
+                  <span>1452 Av. Manuel Fernández Juncos, San Juan, PR 00909</span>
+                </li>
+                <li className="flex items-start gap-2.5 text-sm text-gray-600 leading-relaxed">
+                  <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-yellow-500 shrink-0" />
+                  <span>801 Brickell Key Blvd Apt 3204, Miami, FL 33131</span>
+                </li>
+                <li className="flex items-start gap-2.5 text-sm text-gray-600 leading-relaxed">
+                  <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-yellow-500 shrink-0" />
+                  <span>C. 1 Oeste 051, San Isidro 15036</span>
+                </li>
               </ul>
             </div>
 
