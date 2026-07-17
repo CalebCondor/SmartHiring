@@ -92,6 +92,11 @@ export function ContactSection() {
               <p className="text-sm text-gray-500 mt-1">
                 Operación remota con equipos en LATAM y EE. UU.
               </p>
+              <ul className="mt-4 flex flex-col gap-2 text-xs text-gray-500 leading-relaxed">
+                <li>1452 Av. Manuel Fernández Juncos, San Juan, PR 00909</li>
+                <li>801 Brickell Key Blvd Apt 3204, Miami, FL 33131</li>
+                <li>C. 1 Oeste 051, San Isidro 15036</li>
+              </ul>
             </div>
 
             <div className="pt-4 border-t border-gray-100">

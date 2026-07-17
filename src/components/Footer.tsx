@@ -143,8 +143,12 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-yellow-500 shrink-0 mt-0.5" />
-                <span className="text-gray-400">
-                  Lima, Peru
+                <span className="text-gray-400 leading-relaxed">
+                  1452 Av. Manuel Fernández Juncos, San Juan, PR 00909
+                  <br />
+                  801 Brickell Key Blvd Apt 3204, Miami, FL 33131
+                  <br />
+                  C. 1 Oeste 051, San Isidro 15036
                 </span>
               </li>
             </ul>
