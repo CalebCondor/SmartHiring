@@ -87,7 +87,7 @@ export function ContactSection() {
                 Ubicación
               </p>
               <p className="text-base md:text-lg text-gray-900 font-medium">
-                Lima, Peru
+                Lima, San Juan, Miami
               </p>
               <p className="text-sm text-gray-500 mt-1">
                 Operación remota con equipos en LATAM y EE. UU.
