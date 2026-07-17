@@ -1,61 +1,31 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Layers } from "lucide-react";
 
-const verticals = [
+const services = [
   {
-    name: "Health.",
+    number: "01",
+    title: "Búsqueda y selección",
     description:
-      "Telemedicine, medical certifications, hospital denial management, and clinical case tools. It's where we started and where we keep investing.",
+      "Identificamos profesionales en Latinoamérica y el mundo que se ajustan al rol, al equipo y a la cultura de tu empresa.",
   },
   {
-    name: "Government Services.",
+    number: "02",
+    title: "Onboarding internacional",
     description:
-      "Platforms that move citizen cases through public agencies in Puerto Rico — faster, with less friction. CescoOnline.com is our flagship in this vertical.",
+      "Nos encargamos de contratos, documentación y cumplimiento para que el talento empiece a operar sin fricciones.",
   },
   {
-    name: "AI Support.",
+    number: "03",
+    title: "Gestión operativa",
     description:
-      "Virtual assistants, conversational agents, and intelligent case routing powered by state-of-the-art language models.",
+      "Acompañamos al talento mes a mes: seguimiento, evaluación, soporte y resolución deIssues que aparezcan en el camino.",
   },
   {
-    name: "Customer Operations.",
+    number: "04",
+    title: "Formación continua",
     description:
-      "Systems that help businesses track, resolve, and learn from every customer interaction.",
-  },
-  {
-    name: "SaaS.",
-    description:
-      "Proprietary and custom software products built around case and workflow management.",
-  },
-  {
-    name: "Automation.",
-    description:
-      "We turn repetitive case handling into clean, auditable, low-touch workflows.",
-  },
-];
-
-const reasons = [
-  {
-    title: "We treat every case like it matters.",
-    description:
-      "Healthcare taught us that a case isn't a ticket — it's someone waiting for an answer. We design systems where nothing falls through, status is always visible, and resolution is the metric that counts.",
-  },
-  {
-    title: "We build what we operate.",
-    description:
-      "We don't sell software we've never run in production. Our own platforms serve thousands of real cases — and that informs how we build for our clients.",
-  },
-  {
-    title: "The health of your business is measurable.",
-    description:
-      "Cycle time, resolution rate, abandonment, cost per case. We build software that surfaces those numbers and moves them in the right direction.",
-  },
-  {
-    title: "Puerto Rico as a base, not a ceiling.",
-    description:
-      "We know the island's operational and commercial context, but we design architecture that scales beyond it.",
+      "Planes de capacitación y desarrollo profesional para que cada integrante crezca dentro de tu organización.",
   },
 ];
 
@@ -68,60 +38,45 @@ const fadeUp = (delay = 0) => ({
 
 export function ServicesSection() {
   return (
-    <section id="services" className="py-10 md:py-16">
-      <div className="max-w-6xl mx-auto px-6 lg:px-8 space-y-25">
-        {/* ── What we do ── */}
-        <div>
-          <motion.div {...fadeUp(0)} className="mb-10">
-            <span className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-green-100 text-green-700 text-xs font-semibold mb-4 tracking-widest uppercase border border-green-200">
-            <Layers className="w-3.5 h-3.5" />
-            What we do
-          </span>
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-900 mb-2">
-              Six verticals,{" "}
-              <span className="text-green-600">one discipline.</span>
-            </h2>
-          </motion.div>
+    <section id="servicios" className="py-10 md:py-16">
+      <div className="max-w-6xl mx-auto px-6 sm:px-8">
+        {/* Header */}
+        <motion.div
+          {...fadeUp(0)}
+          className="max-w-2xl"
+        >
+          <p className="text-xs font-semibold tracking-[0.2em] uppercase text-yellow-600 mb-5">
+            Servicios
+          </p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold tracking-tight text-gray-900 leading-[1.1]">
+            De la búsqueda{" "}
+            <span className="text-yellow-500">al acompañamiento.</span>
+          </h2>
+          <p className="mt-6 text-base md:text-lg text-gray-600 leading-relaxed max-w-xl">
+            Cuatro etapas, una sola célula. Smart Hiring IRL cubre el ciclo
+            completo de incorporar y gestionar talento internacional.
+          </p>
+        </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
-            {verticals.map((v, i) => (
-              <motion.p
-                key={v.name}
-                {...fadeUp(i * 0.07)}
-                className="text-gray-600 leading-relaxed text-sm border-l-2 border-green-200 pl-4"
-              >
-                <span className="font-semibold text-gray-900">{v.name}</span>{" "}
-                {v.description}
-              </motion.p>
-            ))}
-          </div>
-        </div>
-
-        {/* ── Why Online Health ── */}
-        <div>
-          <motion.div {...fadeUp(0)} className="mb-10">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-900 mb-2">
-              Why{" "}
-              <span className="text-green-600">Online Health</span>
-            </h2>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {reasons.map((r, i) => (
-              <motion.div
-                key={r.title}
-                {...fadeUp(i * 0.1)}
-                className="flex flex-col gap-2"
-              >
-                <h3 className="font-semibold text-green-700 text-base leading-snug">
-                  {r.title}
-                </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  {r.description}
-                </p>
-              </motion.div>
-            ))}
-          </div>
+        {/* Services — grid limpio */}
+        <div className="mt-16 md:mt-20 grid grid-cols-1 sm:grid-cols-2 gap-10 md:gap-12">
+          {services.map((s, i) => (
+            <motion.div
+              key={s.number}
+              {...fadeUp(0.1 + i * 0.05)}
+              className="border-t border-gray-200 pt-6"
+            >
+              <span className="block text-xs font-mono text-yellow-500 mb-4">
+                {s.number}
+              </span>
+              <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2 tracking-tight">
+                {s.title}
+              </h3>
+              <p className="text-sm md:text-base text-gray-600 leading-relaxed">
+                {s.description}
+              </p>
+            </motion.div>
+          ))}
         </div>
       </div>
     </section>

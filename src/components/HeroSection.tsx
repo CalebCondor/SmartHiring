@@ -68,11 +68,11 @@ export function HeroSection() {
 
         <motion.div
           {...fadeUp(0.5)}
-          className="flex flex-col sm:flex-row items-center justify-center gap-4"
+          className="flex flex-row items-center justify-center gap-4"
         >
           <a
             href="#opportunities"
-            className="bg-white text-yellow-700 px-7 py-3.5 rounded-full font-semibold hover:bg-yellow-50 transition-colors shadow-lg shadow-black/10"
+            className="bg-white text-yellow-700 px-5 py-2.5 sm:px-7 sm:py-3.5 rounded-full font-semibold hover:bg-yellow-50 transition-colors shadow-lg shadow-black/10 text-sm"
           >
             Ver oportunidades
           </a>

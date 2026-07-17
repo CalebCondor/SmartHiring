@@ -28,7 +28,7 @@ const principles = [
 
 export function AboutSection() {
   return (
-    <section id="about" className="py-24 md:py-32 bg-white">
+    <section id="about" className="py-10 md:py-20 overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 sm:px-8">
         {/* Header */}
         <motion.div

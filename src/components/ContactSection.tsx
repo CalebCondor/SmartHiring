@@ -80,11 +80,13 @@ export function ContactSection() {
           </p>
 
           <Dialog open={open} onOpenChange={handleOpenChange}>
-            <DialogTrigger asChild>
-              <Button className="bg-green-600 hover:bg-green-700 text-white rounded-full px-8 py-5 font-semibold gap-2 shadow-lg shadow-green-900/10">
-                Send us a message <Send className="w-4 h-4" />
-              </Button>
-            </DialogTrigger>
+            <DialogTrigger
+              render={
+                <Button className="bg-yellow-500 hover:bg-yellow-600 text-white rounded-full px-8 py-5 font-semibold gap-2 shadow-lg shadow-yellow-900/10">
+                  Send us a message <Send className="w-4 h-4" />
+                </Button>
+              }
+            />
             <DialogContent className="sm:max-w-lg">
               <DialogHeader>
                 <DialogTitle>Send us a message</DialogTitle>
