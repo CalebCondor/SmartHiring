@@ -40,9 +40,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <AboutSection />
-        <ServicesSection />
-        <ProjectsSection />
-        <BlogSection />
+       
         <ContactSection />
       </main>
       ¡{" "}
