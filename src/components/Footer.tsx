@@ -135,10 +135,10 @@ export function Footer() {
               <li className="flex items-start gap-2.5">
                 <Mail className="w-4 h-4 text-yellow-500 shrink-0 mt-0.5" />
                 <a
-                  href="mailto:hola@smarthiring.us"
+                  href="mailto:empleos@smarthiringpe.com "
                   className="text-gray-400 hover:text-yellow-500 transition-colors"
                 >
-                  hola@smarthiring.us
+                  empleos@smarthiringpe.com{" "}
                 </a>
               </li>
               <li className="flex items-start gap-2.5">
@@ -159,10 +159,16 @@ export function Footer() {
             © {year} Smart Hiring EIRL. Parte del grupo Online Health.
           </p>
           <div className="flex items-center gap-5 text-xs text-gray-500">
-            <a href="#privacidad" className="hover:text-yellow-500 transition-colors">
+            <a
+              href="#privacidad"
+              className="hover:text-yellow-500 transition-colors"
+            >
               Privacidad
             </a>
-            <a href="#terminos" className="hover:text-yellow-500 transition-colors">
+            <a
+              href="#terminos"
+              className="hover:text-yellow-500 transition-colors"
+            >
               Términos
             </a>
           </div>
