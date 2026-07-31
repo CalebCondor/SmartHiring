@@ -13,7 +13,7 @@ const pillars = [
     icon: Users,
     title: "Equipos internos",
     description:
-      "Contratamos talento remoto para integrarlo a la fuerza laboral del grupo OnliHealth, no para ofrecer servicios a terceros.",
+      "Contratamos talento remoto para integrarlo a la fuerza laboral del grupo Online Health, no para ofrecer servicios a terceros.",
     accent: "bg-green-50 border-green-100",
     iconBg: "bg-green-100",
     iconColor: "text-green-600",
@@ -31,7 +31,7 @@ const pillars = [
     icon: Building2,
     title: "Estructura corporativa",
     description:
-      "Smart Hiring IRL es la subsidiaria de OnliHealth dedicada a construir la base humana del grupo.",
+      "Smart Hiring IRL es la subsidiaria de Online Health dedicada a construir la base humana del grupo.",
     accent: "bg-teal-50 border-teal-100",
     iconBg: "bg-teal-100",
     iconColor: "text-teal-600",
@@ -56,13 +56,13 @@ export function SmartHiringSection() {
             SmartHiring
           </span>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl tracking-tight font-semibold text-gray-900">
-            OnliHealth y Smart Hiring IRL:{" "}
+            Online Health y Smart Hiring IRL:{" "}
             <span className="text-green-600">
               una estructura para escalar equipos globales.
             </span>
           </h2>
           <p className="text-gray-600 leading-relaxed">
-            OnliHealth es la compañía matriz y Smart Hiring IRL es su
+            Online Health es la compañía matriz y Smart Hiring IRL es su
             subsidiaria. Desde ahí identificamos, incorporamos y gestionamos
             talento remoto —fuera de Puerto Rico y Estados Unidos— para
             integrarlo a las operaciones del grupo.

@@ -18,9 +18,9 @@ const SITE_URL = "https://onlinehealth.us";
 const SITE_NAME = "OnliHealth";
 const LEGAL_NAME = "Online Health";
 const DEFAULT_DESCRIPTION =
-  "OnliHealth — Casi 10 años desarrollando software especializado para la industria de la salud en Puerto Rico. Telemedicina, gestión de casos clínicos, cumplimiento HIPAA y plataformas para hospitales, aseguradoras y gobierno.";
+  "Online Health — Casi 10 años desarrollando software especializado para la industria de la salud en Puerto Rico. Telemedicina, gestión de casos clínicos, cumplimiento HIPAA y plataformas para hospitales, aseguradoras y gobierno.";
 const DEFAULT_KEYWORDS = [
-  "OnliHealth",
+  "Online Health",
   "Online Health",
   "onlinehealth.us",
   "software salud Puerto Rico",

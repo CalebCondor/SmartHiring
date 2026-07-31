@@ -78,7 +78,7 @@ export function Footer() {
             </Link>
 
             <p className="mt-5 text-sm leading-relaxed text-gray-400 max-w-sm">
-              Célula de talento del grupo OnliHealth. Construimos equipos
+              Célula de talento del grupo Online Health. Construimos equipos
               globales que impulsan la innovación.
             </p>
 
@@ -156,7 +156,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-14 pt-6 border-t border-gray-800 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-gray-500">
-            © {year} Smart Hiring IRL. Parte del grupo OnliHealth.
+            © {year} Smart Hiring IRL. Parte del grupo Online Health.
           </p>
           <div className="flex items-center gap-5 text-xs text-gray-500">
             <a href="#privacidad" className="hover:text-yellow-500 transition-colors">

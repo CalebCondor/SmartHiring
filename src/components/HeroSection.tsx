@@ -88,7 +88,7 @@ export function HeroSection() {
           {...fadeIn(0.65)}
           className="text-yellow-200/60 text-xs"
         >
-          Parte del grupo OnliHealth &middot; Talento global, resultados locales
+          Parte del grupo Online Health &middot; Talento global, resultados locales
         </motion.p>
       </div>
     </section>
