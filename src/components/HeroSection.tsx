@@ -46,7 +46,8 @@ export function HeroSection() {
           className="inline-flex w-fit items-center gap-2 text-xs font-semibold tracking-widest uppercase text-yellow-200 border border-yellow-500/50 rounded-full px-4 py-1.5 bg-white/5 backdrop-blur-sm"
         >
           <span className="w-1.5 h-1.5 rounded-full bg-yellow-300 animate-pulse" />
-SMART HIRING PERU E.I.R.L.        </motion.span>
+          Smart Hiring EIRL
+        </motion.span>
 
         <motion.h1
           {...fadeUp(0.2)}
