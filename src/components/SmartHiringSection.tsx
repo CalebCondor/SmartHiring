@@ -31,7 +31,7 @@ const pillars = [
     icon: Building2,
     title: "Estructura corporativa",
     description:
-      "Smart Hiring IRL es la subsidiaria de Online Health dedicada a construir la base humana del grupo.",
+      "Smart Hiring EIRL es la subsidiaria de Online Health dedicada a construir la base humana del grupo.",
     accent: "bg-teal-50 border-teal-100",
     iconBg: "bg-teal-100",
     iconColor: "text-teal-600",
@@ -56,13 +56,13 @@ export function SmartHiringSection() {
             SmartHiring
           </span>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl tracking-tight font-semibold text-gray-900">
-            Online Health y Smart Hiring IRL:{" "}
+            Online Health y Smart Hiring EIRL:{" "}
             <span className="text-green-600">
               una estructura para escalar equipos globales.
             </span>
           </h2>
           <p className="text-gray-600 leading-relaxed">
-            Online Health es la compañía matriz y Smart Hiring IRL es su
+            Online Health es la compañía matriz y Smart Hiring EIRL es su
             subsidiaria. Desde ahí identificamos, incorporamos y gestionamos
             talento remoto —fuera de Puerto Rico y Estados Unidos— para
             integrarlo a las operaciones del grupo.

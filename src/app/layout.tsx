@@ -31,7 +31,7 @@ const DEFAULT_KEYWORDS = [
   "salud digital",
   "HIPAA",
   "case management Puerto Rico",
-  "Smart Hiring IRL",
+  "Smart Hiring EIRL",
 ];
 
 export const viewport: Viewport = {
@@ -188,7 +188,7 @@ export default function RootLayout({
     },
     subOrganization: {
       "@type": "Organization",
-      name: "Smart Hiring IRL",
+      name: "Smart Hiring EIRL",
       url: `${SITE_URL}#smarthiring`,
     },
     sameAs: [

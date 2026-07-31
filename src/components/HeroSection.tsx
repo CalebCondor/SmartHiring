@@ -46,7 +46,7 @@ export function HeroSection() {
           className="inline-flex w-fit items-center gap-2 text-xs font-semibold tracking-widest uppercase text-yellow-200 border border-yellow-500/50 rounded-full px-4 py-1.5 bg-white/5 backdrop-blur-sm"
         >
           <span className="w-1.5 h-1.5 rounded-full bg-yellow-300 animate-pulse" />
-          Smart Hiring IRL
+          Smart Hiring EIRL
         </motion.span>
 
         <motion.h1
@@ -61,7 +61,7 @@ export function HeroSection() {
           {...fadeUp(0.35)}
           className="text-yellow-100/80 text-base md:text-lg max-w-2xl leading-relaxed"
         >
-          En Smart Hiring IRL identificamos, incorporamos y gestionamos talento
+          En Smart Hiring EIRL identificamos, incorporamos y gestionamos talento
           internacional para fortalecer las operaciones y el crecimiento de las
           empresas que forman parte del grupo Online Health.
         </motion.p>

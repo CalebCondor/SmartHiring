@@ -46,7 +46,7 @@ export function AboutSection() {
             <span className="text-yellow-500">en el momento correcto.</span>
           </h2>
           <p className="mt-6 text-base md:text-lg text-gray-600 leading-relaxed max-w-xl">
-            Smart Hiring IRL es la célula de talento del grupo Online Health.
+            Smart Hiring EIRL es la célula de talento del grupo Online Health.
             Integramos equipos internacionales en operaciones que necesitan
             escalar sin perder calidad.
           </p>
