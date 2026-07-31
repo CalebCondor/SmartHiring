@@ -78,8 +78,7 @@ export function ContactSection() {
                 href="mailto:hola@smarthiring.us"
                 className="text-base md:text-lg text-gray-900 hover:text-yellow-500 transition-colors font-medium"
               >
-                hola@smarthiring.us
-              </a>
+empleos@smarthiringpe.com              </a>
             </div>
 
             <div>
@@ -111,7 +110,7 @@ export function ContactSection() {
             <div className="pt-4 border-t border-gray-100">
               <p className="text-xs text-gray-500 leading-relaxed">
                 Parte del grupo{" "}
-                <span className="text-gray-900 font-medium">OnliHealth</span>.
+                <span className="text-gray-900 font-medium">Online Health</span>.
                 Casi 10 años diseñando plataformas de salud, talento y
                 operaciones.
               </p>
